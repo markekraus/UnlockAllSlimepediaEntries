@@ -4,10 +4,10 @@ using System.Runtime.InteropServices;
 using UnlockAllSlimepediaEntries;
 using MelonLoader;
 
-[assembly: AssemblyVersion("2.0.0.0")]
+[assembly: AssemblyVersion("3.0.0.0")]
 [assembly: MelonAuthorColor(255, 255, 0, 188)]
 [assembly: MelonColor(255, 239, 231, 212)]
-[assembly: MelonInfo(typeof(Entry), "Unlock All Slimepedia Entries", "2.0.0", "MarkEKraus", null)]
+[assembly: MelonInfo(typeof(Entry), "Unlock All Slimepedia Entries", "3.0.0", "MarkEKraus", null)]
 [assembly: MelonGame("MonomiPark", "SlimeRancher2")]
 [assembly: AssemblyTitle("UnlockAllSlimepediaEntries")]
 [assembly: AssemblyDescription("Slime Rancher 2 mod that unlocks all gadgets.")]
@@ -18,5 +18,5 @@ using MelonLoader;
 [assembly: AssemblyTrademark("")]
 [assembly: ComVisible(false)]
 [assembly: Guid("fbe7a80e-97cf-4edb-9b6e-a1831db64213")]
-[assembly: AssemblyFileVersion("2.0.0.0")]
+[assembly: AssemblyFileVersion("3.0.0.0")]
 

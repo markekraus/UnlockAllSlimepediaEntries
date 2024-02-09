@@ -9,7 +9,7 @@ namespace UnlockAllSlimepediaEntries
     internal class Entry : MelonMod
     {
         private static HashSet<string> processedSaves = new ();
-        private readonly List<string> ignoredPediaEntries = new() {"CoralCove", "GreyLabyrinth", "Locked", "LockedSlime"};
+        private readonly HashSet<string> ignoredPediaEntries = new() {"CoralCove", "GreyLabyrinth", "Locked", "LockedSlime", "Locked Slime"};
         public override void OnSceneWasLoaded(int buildIndex, string sceneName)
         {
             if (!sceneName.Contains("zone") || sceneName == "zoneCore")
